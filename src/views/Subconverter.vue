@@ -348,7 +348,7 @@ export default {
       "sub-web作者提供": "https://api.wcc.best",
   },
   backendOptions: [
-      { value: "https://subapi.caomu.hidns.co" }, // 添加您的后端地址
+      { value: "https://subhou.caomu.qzz.io/" }, // 添加您的后端地址
       { value: "https://subapi.cmliussss.net" },
       { value: "https://subapi.fxxk.dedyn.io" },
       { value: "https://url.v1.mk" },
@@ -792,7 +792,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://subapi.caomu.hidns.co" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://subhou.caomu.qzz.io/" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://raw.githubusercontent.com/liandu2024/clash/refs/heads/main/Clash-LIAN.ini",
         excludeRemarks: "",
@@ -1316,5 +1316,6 @@ export default {
   }
 };
 </script>
+
 
 
